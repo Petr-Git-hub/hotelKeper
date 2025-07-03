@@ -77,15 +77,17 @@ body.menu-open .header-menu {
 .header-menu .uk-button {
   margin-top: auto;
   height: 43px;
+  min-height: 43px;
   font-size: 16px;
 }
 
 .header-menu {
   position: fixed;
-  top: 0;
+  padding: 10px 12px 20px;
+  top: 105px;
+  height: calc(100% - 105px);
   left: 0;
   width: 100%;
-  height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -96,7 +98,6 @@ body.menu-open .header-menu {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  padding: 105px 15px 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   overflow: auto;
@@ -1387,13 +1388,14 @@ a:hover {
 
 @media screen and (min-width: 640px) {
   .header-menu {
-    padding: 105px 30px 20px;
+    padding: 10px 30px 20px;
+    top: 105px;
   }
 }
 
 @media screen and (min-width: 960px) {
   .header-menu {
-    padding: 105px 40px 20px;
+    padding: 10px 40px 20px;
   }
 }
 
@@ -1431,6 +1433,7 @@ a:hover {
             flex-direction: row;
     padding: 0;
     overflow: visible;
+    top: 0;
   }
 
   .menu {
