@@ -1461,6 +1461,14 @@ a:hover {
   width: 80px;
 }
 
+.qr__block .desc {
+  display: block;
+}
+
+.qr__block .mob {
+  display: none;
+}
+
 .qr-name {
   font-weight: 500;
   font-size: 16px;
@@ -2311,6 +2319,28 @@ a:hover {
 
   .footer-right {
     width: 80%;
+  }
+
+  .qr {
+    -webkit-column-gap: 24px;
+       -moz-column-gap: 24px;
+            column-gap: 24px;
+  }
+
+  .qr-name {
+    display: none;
+  }
+
+  .qr__block img {
+    width: 111px;
+  }
+
+  .qr__block .desc {
+    display: none;
+  }
+
+  .qr__block .mob {
+    display: block;
   }
 
   .article__title {
