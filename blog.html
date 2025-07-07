@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" type="image/svg+xml" href="img/image-1.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap&_v=20250707142207" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/uikit.min.css?_v=20250707142207">
+    <link rel="stylesheet" href="css/style.min.css?_v=20250707142207">
+
+    <title>Блог - HotelKeeper</title>
+</head>
+
+<body>
+<header class="header">
+
+    <div class="uk-container">
+
+        <a href="/" class="logo">
+            <picture><source srcset="img/logoMin.webp" type="image/webp"><img width="70" height="70" src="img/logoMin.png" alt=""></picture>
+        </a>
+
+        <nav class="header-menu">
+
+            <ul class="menu">
+                <li class="menu__li"><a href="/#decisions" class="menu__link">Продукты и решения</a></li>
+                <li class="menu__li"><a href="/#whom" class="menu__link">Для кого</a></li>
+                <li class="menu__li"><a href="/blog.html" class="menu__link">Блог</a></li>
+                <li class="menu__li"><a href="/contacts.html" class="menu__link">Контакты</a></li>
+            </ul>
+
+            <a href="#" target="_blank" class="uk-button uk-button-danger">Забронировать демо</a>
+        </nav>
+
+        <button class="hamburger">
+            <span class="top"></span>
+            <span class="center"></span>
+            <span class="bottom"></span>
+        </button>
+
+    </div>
+
+</header>
+
+
+
+
+<main>
+
+    <div class="header-page">
+        <div class="uk-container">
+            <h1 class="title">Блог</h1>
+        </div>
+    </div>
+
+    <section class="section-blog uk-margin-medium-bottom">
+        <div class="uk-container">
+            <div class="blog-wrap" uk-filter="target: .js-filter">
+                <div class="uk-overflow-auto uk-margin-medium-bottom">
+                    <ul class="filter-block ">
+                        <li class="filter-block__li uk-active" uk-filter-control>
+                            <a href="#" class="filter-block__link">Все</a>
+                        </li>
+                        <li class="filter-block__li " uk-filter-control="[data-color='product']">
+                            <a href="#" class="filter-block__link">О продуктах</a>
+                        </li>
+                        <li class="filter-block__li " uk-filter-control="[data-color='communication']">
+                            <a href="#" class="filter-block__link">Общение</a>
+                        </li>
+                        <li class="filter-block__li " uk-filter-control="[data-color='management']">
+                            <a href="#" class="filter-block__link">Управление</a>
+                        </li>
+                        <li class="filter-block__li " uk-filter-control="[data-color='optimization']">
+                            <a href="#" class="filter-block__link">Оптимизация</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul class="js-filter blog-list uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m uk-grid-medium" uk-grid>
+                    <li data-color="product">
+                        <article class="article">
+                            <a href="/block-item.html">
+                                <div class="article__img">
+                                    <picture><source srcset="img/blog1.webp" type="image/webp"><img width="448" height="240" src="img/blog1.jpg" alt="" ></picture>
+                                </div>
+                                <div class="article__body">
+                                    <div class="article__inf">
+                                        <div class="article__date">11.02.22</div>
+                                        <div class="article__review">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 0 0-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 0 0 0-17.47C428.89 172.28 347.8 112 255.66 112z"></path><circle cx="256" cy="256" r="80" fill="none" stroke-miterlimit="10" stroke-width="32"></circle></svg>
+                                            106
+                                        </div>
+                                    </div>
+                                    <div class="article__title">Как избавиться от хаоса в гостиничных операциях: Мастерство управления задачами</div>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li data-color="optimization">
+                        <article class="article">
+                            <a href="/block-item.html">
+                                <div class="article__img">
+                                    <picture><source srcset="img/blog2.webp" type="image/webp"><img width="448" height="240" src="img/blog2.jpg" alt="" ></picture>
+                                </div>
+                                <div class="article__body">
+                                    <div class="article__inf">
+                                        <div class="article__date">11.02.22</div>
+                                        <div class="article__review">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 0 0-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 0 0 0-17.47C428.89 172.28 347.8 112 255.66 112z"></path><circle cx="256" cy="256" r="80" fill="none" stroke-miterlimit="10" stroke-width="32"></circle></svg>
+                                            106
+                                        </div>
+                                    </div>
+                                    <div class="article__title">Исследование: Более 3/4 гостей готовы останавливаться в отелях с автоматизированной регистрацией или киосками самообслуживания</div>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li data-color="communication">
+                        <article class="article">
+                            <a href="/block-item.html">
+                                <div class="article__img">
+                                    <picture><source srcset="img/blog3.webp" type="image/webp"><img width="448" height="240" src="img/blog3.jpg" alt="" ></picture>
+                                </div>
+                                <div class="article__body">
+                                    <div class="article__inf">
+                                        <div class="article__date">11.02.22</div>
+                                        <div class="article__review">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 0 0-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 0 0 0-17.47C428.89 172.28 347.8 112 255.66 112z"></path><circle cx="256" cy="256" r="80" fill="none" stroke-miterlimit="10" stroke-width="32"></circle></svg>
+                                            106
+                                        </div>
+                                    </div>
+                                    <div class="article__title">Преодоление барьеров: как инновации помогают гостиничному бизнесу двигаться вперед</div>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li data-color="product">
+                        <article class="article">
+                            <a href="/block-item.html">
+                                <div class="article__img">
+                                    <picture><source srcset="img/blog4.webp" type="image/webp"><img width="448" height="240" src="img/blog4.jpg" alt="" ></picture>
+                                </div>
+                                <div class="article__body">
+                                    <div class="article__inf">
+                                        <div class="article__date">11.02.22</div>
+                                        <div class="article__review">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 0 0-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 0 0 0-17.47C428.89 172.28 347.8 112 255.66 112z"></path><circle cx="256" cy="256" r="80" fill="none" stroke-miterlimit="10" stroke-width="32"></circle></svg>
+                                            106
+                                        </div>
+                                    </div>
+                                    <div class="article__title">Внедрение технологий в гостиничном бизнесе: путь к повышению эффективности и снижению ошибок</div>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li data-color="optimization">
+                        <article class="article">
+                            <a href="/block-item.html">
+                                <div class="article__img">
+                                    <picture><source srcset="img/blog5.webp" type="image/webp"><img width="448" height="240" src="img/blog5.jpg" alt="" ></picture>
+                                </div>
+                                <div class="article__body">
+                                    <div class="article__inf">
+                                        <div class="article__date">11.02.22</div>
+                                        <div class="article__review">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 0 0-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 0 0 0-17.47C428.89 172.28 347.8 112 255.66 112z"></path><circle cx="256" cy="256" r="80" fill="none" stroke-miterlimit="10" stroke-width="32"></circle></svg>
+                                            106
+                                        </div>
+                                    </div>
+                                    <div class="article__title">2025: Готов ли гостиничный бизнес к роботам?</div>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li data-color="communication">
+                        <article class="article">
+                            <a href="/block-item.html">
+                                <div class="article__img">
+                                    <picture><source srcset="img/blog6.webp" type="image/webp"><img width="448" height="240" src="img/blog6.jpg" alt="" ></picture>
+                                </div>
+                                <div class="article__body">
+                                    <div class="article__inf">
+                                        <div class="article__date">11.02.22</div>
+                                        <div class="article__review">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 0 0-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 0 0 0-17.47C428.89 172.28 347.8 112 255.66 112z"></path><circle cx="256" cy="256" r="80" fill="none" stroke-miterlimit="10" stroke-width="32"></circle></svg>
+                                            106
+                                        </div>
+                                    </div>
+                                    <div class="article__title">Автоматизация процессов в гостиничном бизнесе: как AI помогает управлять персоналом и ресурсами</div>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li data-color="product">
+                        <article class="article">
+                            <a href="/block-item.html">
+                                <div class="article__img">
+                                    <picture><source srcset="img/blog7.webp" type="image/webp"><img width="448" height="240" src="img/blog7.jpg" alt="" ></picture>
+                                </div>
+                                <div class="article__body">
+                                    <div class="article__inf">
+                                        <div class="article__date">11.02.22</div>
+                                        <div class="article__review">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 0 0-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 0 0 0-17.47C428.89 172.28 347.8 112 255.66 112z"></path><circle cx="256" cy="256" r="80" fill="none" stroke-miterlimit="10" stroke-width="32"></circle></svg>
+                                            106
+                                        </div>
+                                    </div>
+                                    <div class="article__title">Будущее гостиничного бизнеса: персонал, автоматизация, стратегия. Итоги круглого стола на Hospitality Online Expo</div>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li data-color="optimization">
+                        <article class="article">
+                            <a href="/block-item.html">
+                                <div class="article__img">
+                                    <picture><source srcset="img/blog8.webp" type="image/webp"><img width="448" height="240" src="img/blog8.jpg" alt="" ></picture>
+                                </div>
+                                <div class="article__body">
+                                    <div class="article__inf">
+                                        <div class="article__date">11.02.22</div>
+                                        <div class="article__review">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 0 0-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 0 0 0-17.47C428.89 172.28 347.8 112 255.66 112z"></path><circle cx="256" cy="256" r="80" fill="none" stroke-miterlimit="10" stroke-width="32"></circle></svg>
+                                            106
+                                        </div>
+                                    </div>
+                                    <div class="article__title">HotelKeeper и Libra Hospitality: новое партнерство, меняющее правила игры в индустрии гостеприимства!</div>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li data-color="communication">
+                        <article class="article">
+                            <a href="/block-item.html">
+                                <div class="article__img">
+                                    <picture><source srcset="img/blog9.webp" type="image/webp"><img width="448" height="240" src="img/blog9.jpg" alt="" ></picture>
+                                </div>
+                                <div class="article__body">
+                                    <div class="article__inf">
+                                        <div class="article__date">11.02.22</div>
+                                        <div class="article__review">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 0 0-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 0 0 0-17.47C428.89 172.28 347.8 112 255.66 112z"></path><circle cx="256" cy="256" r="80" fill="none" stroke-miterlimit="10" stroke-width="32"></circle></svg>
+                                            106
+                                        </div>
+                                    </div>
+                                    <div class="article__title">Автоматизация процессов в гостиничном бизнесе: как AI помогает управлять персоналом и ресурсами</div>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li data-color="product">
+                        <article class="article">
+                            <a href="/block-item.html">
+                                <div class="article__img">
+                                    <picture><source srcset="img/blog10.webp" type="image/webp"><img width="448" height="240" src="img/blog10.jpg" alt="" ></picture>
+                                </div>
+                                <div class="article__body">
+                                    <div class="article__inf">
+                                        <div class="article__date">11.02.22</div>
+                                        <div class="article__review">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 0 0-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 0 0 0-17.47C428.89 172.28 347.8 112 255.66 112z"></path><circle cx="256" cy="256" r="80" fill="none" stroke-miterlimit="10" stroke-width="32"></circle></svg>
+                                            106
+                                        </div>
+                                    </div>
+                                    <div class="article__title">В какие технологии стоит инвестировать отельерам в 2024-2025 году?</div>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li data-color="communication">
+                        <article class="article">
+                            <a href="/block-item.html">
+                                <div class="article__img">
+                                    <picture><source srcset="img/blog11.webp" type="image/webp"><img width="448" height="240" src="img/blog11.jpg" alt="" ></picture>
+                                </div>
+                                <div class="article__body">
+                                    <div class="article__inf">
+                                        <div class="article__date">11.02.22</div>
+                                        <div class="article__review">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 0 0-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 0 0 0-17.47C428.89 172.28 347.8 112 255.66 112z"></path><circle cx="256" cy="256" r="80" fill="none" stroke-miterlimit="10" stroke-width="32"></circle></svg>
+                                            106
+                                        </div>
+                                    </div>
+                                    <div class="article__title">Эффективное управление временем с HotelKeeper</div>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li data-color="management">
+                        <article class="article">
+                            <a href="/block-item.html">
+                                <div class="article__img">
+                                    <picture><source srcset="img/blog12.webp" type="image/webp"><img width="448" height="240" src="img/blog12.jpg" alt="" ></picture>
+                                </div>
+                                <div class="article__body">
+                                    <div class="article__inf">
+                                        <div class="article__date">11.02.22</div>
+                                        <div class="article__review">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 0 0-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 0 0 0-17.47C428.89 172.28 347.8 112 255.66 112z"></path><circle cx="256" cy="256" r="80" fill="none" stroke-miterlimit="10" stroke-width="32"></circle></svg>
+                                            106
+                                        </div>
+                                    </div>
+                                    <div class="article__title">Будущее Гостеприимства: Синергия Людей и Технологий</div>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li data-color="management">
+                        <article class="article">
+                            <a href="/block-item.html">
+                                <div class="article__img">
+                                    <picture><source srcset="img/blog13.webp" type="image/webp"><img width="448" height="240" src="img/blog13.jpg" alt="" ></picture>
+                                </div>
+                                <div class="article__body">
+                                    <div class="article__inf">
+                                        <div class="article__date">11.02.22</div>
+                                        <div class="article__review">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 0 0-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 0 0 0-17.47C428.89 172.28 347.8 112 255.66 112z"></path><circle cx="256" cy="256" r="80" fill="none" stroke-miterlimit="10" stroke-width="32"></circle></svg>
+                                            106
+                                        </div>
+                                    </div>
+                                    <div class="article__title">Как HotelKeeper помогает сделать работу отеля эффективнее</div>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li data-color="product">
+                        <article class="article">
+                            <a href="/block-item.html">
+                                <div class="article__img">
+                                    <picture><source srcset="img/blog14.webp" type="image/webp"><img width="448" height="240" src="img/blog14.jpg" alt="" ></picture>
+                                </div>
+                                <div class="article__body">
+                                    <div class="article__inf">
+                                        <div class="article__date">11.02.22</div>
+                                        <div class="article__review">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 0 0-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 0 0 0-17.47C428.89 172.28 347.8 112 255.66 112z"></path><circle cx="256" cy="256" r="80" fill="none" stroke-miterlimit="10" stroke-width="32"></circle></svg>
+                                            106
+                                        </div>
+                                    </div>
+                                    <div class="article__title">Расставим все точки над ИИ: Как подготовиться к будущему гостиничного бизнеса</div>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li data-color="management">
+                        <article class="article">
+                            <a href="/block-item.html">
+                                <div class="article__img">
+                                    <picture><source srcset="img/blog15.webp" type="image/webp"><img width="448" height="240" src="img/blog15.jpg" alt="" ></picture>
+                                </div>
+                                <div class="article__body">
+                                    <div class="article__inf">
+                                        <div class="article__date">11.02.22</div>
+                                        <div class="article__review">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 0 0-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 0 0 0-17.47C428.89 172.28 347.8 112 255.66 112z"></path><circle cx="256" cy="256" r="80" fill="none" stroke-miterlimit="10" stroke-width="32"></circle></svg>
+                                            106
+                                        </div>
+                                    </div>
+                                    <div class="article__title">О дивный новый мир: Добро пожаловать в мир инноваций гостеприимства с HotelKeeper</div>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+
+                </ul>
+                <div class="uk-text-center uk-width-1-1 uk-margin-medium-top">
+                    <a class="uk-button uk-button-default uk-button-outline-danger" type="submit">Показать ещё</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-subscribe">
+        <div class="uk-container">
+            <div class="subscribe">
+                <div class="subscribe__title">Самые интересные новости из сферы гостеприимства</div>
+                <form action="#" class="form-subscribe">
+                    <label class="label">
+                        <input class="uk-input" type="email" placeholder="Ваша почта" aria-label="Input"
+                               required="">
+                    </label>
+                    <button class="uk-button uk-button-danger" type="submit">Подписаться</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+
+
+<footer class="footer">
+
+    <div class="uk-container">
+        <div class="footer-left">
+            <a href="/" class="footer-logo">
+                <picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" width="237" height="53" alt=""></picture>
+            </a>
+            <a href="#" target="_blank" class="politics">Политика конфиденциальности</a>
+            <div class="copyright">Все права защищены. 2025</div>
+        </div>
+        <div class="footer-right">
+            <ul class="footer-menu">
+                <li><div class="footer-menu__title">Продуткы</div></li>
+                <li><a href="#" class="footer-menu__link">Автоматизация задач</a></li>
+                <li><a href="#" class="footer-menu__link">Управление персоналом</a></li>
+                <li><a href="#" class="footer-menu__link">Контроль ресурсов</a></li>
+                <li><a href="#" class="footer-menu__link">Повышение продаж</a></li>
+                <li><a href="#" class="footer-menu__link">AI ассистент</a></li>
+            </ul>
+            <ul class="footer-menu">
+                <li><div class="footer-menu__title">О нас</div></li>
+                <li><a href="#" class="footer-menu__link">Блог</a></li>
+                <li><a href="#" class="footer-menu__link">Партнёры</a></li>
+                <li>
+                    <ul class="social">
+                        <li>
+                            <a href="#" class="social__link">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social__link">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social__link">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="footer-menu">
+                <li><div class="footer-menu__title">Установить <br> приложение</div></li>
+                <li>
+                    <ul class="qr">
+                        <li class="qr__block">
+                            <picture><source srcset="img/qr1.webp" type="image/webp"><img src="img/qr1.png" width="80" height="80" alt=""></picture>
+                            <div class="qr-name">Android</div>
+                        </li>
+                        <li class="qr__block">
+                            <picture><source srcset="img/qr2.webp" type="image/webp"><img src="img/qr2.png" width="80" height="80" alt=""></picture>
+                            <div class="qr-name">iOS</div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</footer>
+<script src="js/main.min.js?_v=20250707142207"></script>
+</body>
+</html>
+
+
+
+
