@@ -555,13 +555,37 @@ body.menu-open .header-menu {
 }
 
 .whom-card {
+  position: relative;
   display: block;
   width: calc((100% - 40px) / 2);
   margin-bottom: 49px;
 }
 
+.whom-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 151px;
+  border-radius: var(--radius);
+  background: rgba(0, 0, 0, 0.4);
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+
 .whom-card:hover {
   text-decoration: none;
+}
+
+.whom-card:hover::before {
+  opacity: 1;
+}
+
+.whom-card:hover .whom-card__title {
+  color: var(--text-red);
 }
 
 .whom-card__img {
@@ -586,6 +610,8 @@ body.menu-open .header-menu {
   font-size: 24px;
   font-weight: 500;
   color: var(--text-black);
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 .whom-card__title svg {
